@@ -3,6 +3,6 @@
 
 ## How to install
 
-1. Clone this project
+1. Fork this project
 2. Install the backend dependences with `$ npm i`
 3. Initialize backend server with `$ npm run dev`
