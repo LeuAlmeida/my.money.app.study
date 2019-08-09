@@ -6,7 +6,7 @@
 Clone this project <br/>
 `$ git clone https://github.com/LeuAlmeida/My-Money-App-with-React.JS.git`
 
-Into project folder <br/>
+Enter in project folder <br/>
 `$ cd backend`
 
 Install backend dependency <br/>
