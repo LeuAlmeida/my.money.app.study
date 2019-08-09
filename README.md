@@ -28,7 +28,7 @@ Start frontend build for development <br/>
 
 ## Contact me
 
-<a href="https://www.linkedin.com/in/leonardoalmeida99/" class="btn btn-primary" target="_blank">LinkedIn</a>
+<a href="https://www.linkedin.com/in/leonardoalmeida99/" class="btn" target="_blank">LinkedIn</a>
 
 <br />
 
