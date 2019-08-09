@@ -28,8 +28,5 @@ Start frontend build for development <br/>
 
 ## Contact me
 
-<a href="https://www.linkedin.com/in/leonardoalmeida99/" target="_blank">LinkedIn</a>
-
-<br />
-
-<a href="http://webid.net.br" target="_blank">My website</a>
+- <a href="https://www.linkedin.com/in/leonardoalmeida99/" target="_blank">LinkedIn</a>
+- <a href="http://webid.net.br" target="_blank">My website</a>
