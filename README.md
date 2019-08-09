@@ -3,25 +3,25 @@
 
 ## How to install
 
-### Clone this project
+Clone this project
 `$ git clone https://github.com/LeuAlmeida/My-Money-App-with-React.JS.git`
 
-### Into project folder
+Into project folder
 `$ cd backend`
 
-### Install backend dependency
+Install backend dependency
 `$ npm i`
 
-### Start backend build for development
+Start backend build for development
 `$ npm run dev`
 
-### In another window open frontend folder
+In another window open frontend folder
 `$ cd frontend`
 
-### Install frontend webpack
+Install frontend webpack
 `$ npm i`
 
-### Start frontend build for development
+Start frontend build for development
 `$ npm run dev`
 
 <hr/>
