@@ -28,8 +28,8 @@ Start frontend build for development <br/>
 
 ## Contact me
 
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
+<a href="https://www.linkedin.com/in/leonardoalmeida99/" class="btn btn-primary" target="_blank">LinkedIn</a>
 
+<br />
 
-<a href="https://www.linkedin.com/in/leonardoalmeida99/" class="btn btn-primary" target="_blank">LinkedIn</a> <br/>
 <a href="http://webid.net.br" target="_blank">My website</a>
