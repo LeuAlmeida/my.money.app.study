@@ -12,13 +12,13 @@ Enter in project folder <br/>
 Install backend dependency <br/>
 `$ npm i`
 
-Start backend build for development <br/>
-`$ npm run dev`
+Start backend build for production <br/>
+`$ npm run production` (try `$ pm2 monit`)
 
-In another window open frontend folder <br/>
+In another cmd window, open frontend folder <br/>
 `$ cd frontend`
 
-Install frontend webpack <br/>
+Install frontend webpack and dependency <br/>
 `$ npm i`
 
 Start frontend build for development <br/>
