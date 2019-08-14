@@ -1,6 +1,6 @@
 # My Money App (React.JS study project)
 
-[Requeriments](#requeriments) | [Backend Install](#backend) | [Front-end Install](#frontend) | [Contact](#contact-me)
+[Requeriments](#requeriments) | [Backend Install](#backend) | [Frontend Install](#frontend) | [Contact](#contact-me)
   
 ## Requeriments
 
@@ -12,7 +12,7 @@
 
 Before everything run `$ mongodb`.
 
-### Frontend
+### Backend
 
 Clone this project <br/>
 `$ git clone https://github.com/LeuAlmeida/My-Money-App-with-React.JS.git`
@@ -29,7 +29,7 @@ Start backend build for production<br/>
 Start pm2 monitoring <br/>
 `$ pm2 monit`
 
-### Backend
+### Frontend
 
 In another cmd window, open frontend folder<br/>
 `$ cd frontend`
