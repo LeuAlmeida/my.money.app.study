@@ -7,7 +7,7 @@ class BillingCycleForm extends Component {
         const { handleSubmit } = this.props
         console.log(handleSubmit)
         return (
-            <form role='form'>
+            <form role='form' onSubmit={handleSubmit}>
                 <div className='box-body'>
                     <Field name='name' component='input' />
                     <Field name='month' component='input' />
