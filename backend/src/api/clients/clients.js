@@ -37,5 +37,3 @@ const clientsSchema = new mongoose.Schema({
 })
 
 module.exports = restful.model('Clients', clientsSchema)
-
-11938045313
