@@ -33,7 +33,7 @@ const login = (req, res, next) => {
 
 const validateToken = (req, res, next) => {
     const token = req.body.token || ''
-    jwt.verify(token, env.authSecret, function (err, decoded) {
+    jwt.verify(token, env.authSecret, function(err, decoded) {
         return res.status(200).send({ valid: !err })
     })
 }
@@ -44,12 +44,12 @@ const signup = (req, res, next) => {
     const password = req.body.password || ''
     const confirmPassword = req.body.confirm_password || ''
     if (!email.match(emailRegex)) {
-        return res.status(400).send({ errors: ['O e-mail informado está inválido'] })
+        return res.status(400).send({ errors: ['O e-mail informa está inválido'] })
     }
     if (!password.match(passwordRegex)) {
         return res.status(400).send({
             errors: [
-                "Senha precisar ter uma letra maiúscula, uma letra minúscula, um número, uma caractere especial(@#$%) e tamanho entre 6 e 20."
+                "Senha precisar ter: uma letra maiúscula, uma letra minúscula, um número, uma caractere especial(@#$%) e tamanho entre 6-20."
             ]
         })
     }
