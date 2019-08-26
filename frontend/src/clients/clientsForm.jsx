@@ -50,7 +50,7 @@ class ClientsForm extends Component {
 
                 <div className='box-body'>
                     <Field name='situacaoCliente' component={LabelAndInput} label='Situação' cols='12 2' placeholder='Selecione a Situação do Cliente' readOnly={readOnly} />
-                    <Field name='vigenciaCliente' component={LabelAndAfterAddonInput} addon='Meses' label='Vigência' cols='12 3' placeholder='Especifique a Vigência do Contr4ato ' readOnly={readOnly} />
+                    <Field name='vigenciaCliente' component={LabelAndAfterAddonInput} addon='Meses' label='Vigência' cols='12 2' placeholder='Especifique a Vigência' readOnly={readOnly} />
                     <Field name='inicioContrato' component={LabelAndAddonIcon} icon='calendar' label='Início do Contrato' cols='12 3' placeholder='Informe a Data de Início' readOnly={readOnly} />
                     <Field name='terminoContrato' component={LabelAndAddonIcon} icon='calendar' label='Término do Contrato' cols='12 3' placeholder='Informe a Data de Vencimento' readOnly={readOnly} />
                     <Field name='vendedor' component={LabelAndInput} label='Vendedor' cols='12 2' placeholder='Informe o Vendedor Responsável' readOnly={readOnly} />
