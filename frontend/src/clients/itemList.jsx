@@ -23,9 +23,12 @@ class ItemList extends Component {
         const list = this.props.list || []
         return list.map((item,index) => (
             <tr key={index}>
-                <td><Field name={`${this.props.field}[${index}].name`} component={Input} placeholder='Informe o ID' readOnly={this.props.readOnly} /></td>
-                <td><Field name={`${this.props.field}[${index}].name`} component={Input} placeholder='Informe o Chip' readOnly={this.props.readOnly} /></td>
-                <td><Field name={`${this.props.field}[${index}].name`} component={Input} placeholder='Localização do Equipamento' readOnly={this.props.readOnly} /></td>
+                
+                <td><Field name={`${this.props.field}[${index}].equipamentoId`} component={Input} placeholder='Informe o ID' readOnly={this.props.readOnly} /></td>
+
+                <td><Field name={`${this.props.field}[${index}].equipamentoChip`} component={Input} placeholder='Informe o Chip' readOnly={this.props.readOnly} /></td>
+
+                <td><Field name={`${this.props.field}[${index}].equipamentoLocal`} component={Input} placeholder='Localização do Equipamento' readOnly={this.props.readOnly} /></td>
 
                 <td>
                     <button type='button' className='btn btn-success' onClick={() => this.add(index + 1)}>
@@ -62,6 +65,7 @@ class ItemList extends Component {
                     </table>
                 </fieldset>
             </Grid>
+            
         )
     }
 }
