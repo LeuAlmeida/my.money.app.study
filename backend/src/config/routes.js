@@ -1,7 +1,7 @@
 const express = require('express')
 const auth = require('./auth')
 
-module.exports = function (server) {
+module.exports = function(server) {
 
     ////////////////////////////////////
     // Rotas protegidas por Token JWT //
@@ -10,7 +10,7 @@ module.exports = function (server) {
     server.use('/api', protectedApi)
 
     protectedApi.use(auth)
-    
+
     // Rotas de Ciclo de Pagamento 
     const BillingCycle = require('../api/billingCycle/billingCycleService')
     BillingCycle.register(protectedApi, '/billingCycles')
