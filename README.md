@@ -10,12 +10,9 @@
 
 ## How to install
 
-Before everything run `$ mongodb`.
+Before everything run `$ mongodb` and `$ git clone https://github.com/LeuAlmeida/My-Money-App-with-React.JS.git`.
 
 ### Backend
-
-Clone this project <br/>
-`$ git clone https://github.com/LeuAlmeida/My-Money-App-with-React.JS.git`
 
 Enter in project folder<br/>
 `$ cd backend`
