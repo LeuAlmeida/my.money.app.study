@@ -1,5 +1,4 @@
 import '../common/template/dependencies'
-
 import React, { Component } from 'react'
 import axios from 'axios'
 import { connect } from 'react-redux'
@@ -30,6 +29,5 @@ class AuthOrApp extends Component {
 }
 
 const mapStateToProps = state => ({ auth: state.auth })
-const mapDispatchToProps = dispatch => bindActionCreators({ validateToken },
-    dispatch)
+const mapDispatchToProps = dispatch => bindActionCreators({ validateToken }, dispatch)
 export default connect(mapStateToProps, mapDispatchToProps)(AuthOrApp)
