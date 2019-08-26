@@ -8,9 +8,11 @@ class Navbar extends Component {
         super(props)
         this.state = { open: false }
     }
+
     changeOpen() {
         this.setState({ open: !this.state.open })
     }
+
     render() {
         const { name, email } = this.props.user
         return (
